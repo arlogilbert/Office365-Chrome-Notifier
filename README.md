@@ -7,4 +7,4 @@ This Chrome extension relies on having an open tab (pinned or unpinned) with out
 
 It shouldn't be too hard to make this work for calendar and other MS notificaitons, just find the appropriate elements and watch them for changes.
 
-Last but not least, this is not packaged. You need to follow[these instructions](https://support.google.com/chrome/a/answer/2714278?hl=en&ref_topic=6274409) to install it in chrome.
+Last but not least, this is not packaged. You need to follow [these instructions](https://support.google.com/chrome/a/answer/2714278?hl=en&ref_topic=6274409) to install it in chrome.
