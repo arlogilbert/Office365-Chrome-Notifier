@@ -1,0 +1,23 @@
+{
+  "name": "Outlook Notifier",
+  "description": "What Microsoft should have done.",
+  "version": "1.0",
+  "author": "Arlo Gilbert",
+  "permissions": [
+    "notifications",
+    "tabs",
+    "https://outlook.office.com/owa/*"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+   "content_scripts": [
+    {
+      "matches": ["https://*.office.com/*"],
+      "js": ["jquery.js", "content_script.js"],
+      "run_at": "document_end"
+    }
+  ],
+  "manifest_version": 2
+}
