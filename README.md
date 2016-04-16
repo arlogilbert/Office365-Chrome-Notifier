@@ -1,4 +1,4 @@
-# Office365-Chrome-Notifier
+# Office 365 Chrome Notifier
 Office 365 &amp; Outlook.com notifier for chrome browsers
 
 Unfortunately Microsoft hasn't built a chrome notifier and most of the chrome notifiers out there ask you to input access credentials to check your e-mail at a regular interal.
